@@ -1,0 +1,48 @@
+body{
+    background-color: #3d3b8e;
+    background-image: linear-gradient(#3d3b8e,black,black);
+}
+
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 1400px;
+}
+
+.popularbooks{
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+    width: 1400px;
+    margin-left: 250px;
+}
+
+.homeul{
+    list-style-type: none;
+    display: flex;
+    gap:10px;
+    font-size: large;
+    font-weight: bold;
+}
+.homeli{
+    width:100px;
+    height:50px;
+    border-radius: 20px;
+    border: 2px solid black;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: #d7ff81;
+    color: black;
+}
+
+.welcometext{
+    color: white;
+}
+
+h1{
+    color: white;
+}

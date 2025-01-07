@@ -1,0 +1,12 @@
+.bookinfocontainer{
+    height:800px;
+    width:600px;
+    background-color:#d5aaff ;
+    border-radius: 20px;
+    border:2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 30%;
+}

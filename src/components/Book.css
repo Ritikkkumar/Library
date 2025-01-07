@@ -1,0 +1,22 @@
+
+
+.bookdiv{
+    height:400px;
+    width:300px;
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    transition: all 0.2s linear;
+    background-color: #d5aaff;
+}
+
+.bookdiv:hover{
+    transform:  perspective(100px) translateZ(10px);
+}
+
+img{
+    border-radius: 10px;
+}
